@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  My New Post |    Autumn wind blows yellow leaves</title>
+  <title>   Autumn wind blows yellow leaves</title>
   <meta name="description" content="记录生活的点点滴滴.">
   <!-- 标签页图标 -->
   
@@ -131,56 +131,47 @@
 <div class="body-outer">
   <div class="body-inner">
     
+
 <article class="post-inner">
-  <div class="post-content-outer">
-    <div class="post-intro">
-      <div class="post-title animate__animated  animate__fadeInUp">My New Post</div>
-      <div class="meta-intro animate__animated  animate__fadeInUp">Jan 24 2023</div>
-      
+    <div class="post-content-outer">
+      <div class="post-intro">
+
+      </div>
+      <div class="post-content-inner">
+        <div class="post-content-inner-space">
+  
+        </div>
+        <div class="post-content-main animate__animated  animate__fadeInUp">
+            <div class="search">
+                <div class="search-input-outer">
+                    <form>
+                        <input type="text" placeholder="想要搜些什么呢..." id="local-search-input" name="q" results="0">
+                        <button type="submit"><i class="ri-search-line"></i></button>
+                    </form>
+                </div>
+                <div id="local-search-result">
+                    
+                    <img src="Autumn wind blows yellow leaves">
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="post-content-inner-space">
+        </div>
+     </div>
     </div>
-    <div class="post-content-inner">
-      <div class="post-content-inner-space">
+  </article>
 
-      </div>
-      <div class="post-content-main animate__animated  animate__fadeInUp">
-        <!-- top型目录 -->
-        
-        <h3 id="Hi-there-👋"><a href="#Hi-there-👋" class="headerlink" title="Hi there 👋"></a>Hi there 👋</h3><ul>
-<li>🔭 I’m currently working on Data Structures and Algorithms</li>
-<li>🌱 I’m currently learning boring college courses</li>
-<li>💬 Ask me about how to be an ordinary person</li>
-<li>📫 How to reach me: <a href="mailto:&#x74;&#x69;&#97;&#x6e;&#98;&#x6f;&#115;&#111;&#110;&#103;&#50;&#x36;&#x37;&#52;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x74;&#x69;&#97;&#x6e;&#98;&#x6f;&#115;&#111;&#110;&#103;&#50;&#x36;&#x37;&#52;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a></li>
-<li>😄 Pronouns: 大学牲</li>
-<li>⚡ Fun fact: …<!--
-**tianbosong/tianbosong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.</li>
-</ul>
-<p>Here are some ideas to get you started:</p>
-<ul>
-<li>🔭 I’m currently working on …</li>
-<li>🌱 I’m currently learning …</li>
-<li>👯 I’m looking to collaborate on …</li>
-<li>🤔 I’m looking for help with …</li>
-<li>💬 Ask me about …</li>
-<li>📫 How to reach me: …</li>
-<li>😄 Pronouns: …</li>
-<li>⚡ Fun fact: …<br>–&gt;</li>
-</ul>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
-        <!-- 分类文章 -->
-        
-      </div>
-      <div class="post-content-inner-space">
-        
-          <div class="space-toc-main animate__animated  animate__fadeInUp">
-            
-           </div>
-        
-      </div>
-   </div>
-    <!-- 评论 -->
-    
-  </div>
-</article>
+<script src="/js/search.js"></script>
+
+<script type="text/javascript">      
+    var search_path = "search.xml";
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
   </div>
 </div>
 
