@@ -163,7 +163,7 @@
                 fetch(`https://ipapi.co/${data.ip}/json/`)
                     .then(response => response.json())
                     .then(data => {
-                        document.getElementById('google-location').textContent = `Location: ${data.city}, ${data.region}, ${data.country_name}`;
+                        document.getElementById('google-location').textContent = `${data.city}, ${data.region}, ${data.country_name}`;
                     })
                     .catch(error => {
                         console.error('Error:', error);
