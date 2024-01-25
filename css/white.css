@@ -163,6 +163,8 @@ span {
 .body-inner {
   width: 1130px;
   background-color: #fff;
+  padding: 20px;
+  /* 添加内边距 */
 }
 
 .intro-content {
@@ -1378,20 +1380,27 @@ h2 {
 }
 
 .card {
-  border: 1px solid #333; /* 更改边框颜色 */
-  border-radius: 10px; /* 使边框变为圆形 */
+  border: 1px solid #333;
+  /* 更改边框颜色 */
+  border-radius: 10px;
+  /* 使边框变为圆形 */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
   background-color: #f9f9f9;
   margin-bottom: 20px;
-  position: relative; /* 这是为了让 .card-link 能够正确地覆盖整个卡片 */
-  width: 300px; /* 调整卡片的宽度 */
-  font-size: 14px; /* 调整字体大小 */
-  transition: box-shadow 0.3s ease; /* 添加过渡效果 */
+  position: relative;
+  /* 这是为了让 .card-link 能够正确地覆盖整个卡片 */
+  width: 300px;
+  /* 调整卡片的宽度 */
+  font-size: 14px;
+  /* 调整字体大小 */
+  transition: box-shadow 0.3s ease;
+  /* 添加过渡效果 */
 }
 
 .card:hover {
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* 改变阴影大小 */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  /* 改变阴影大小 */
 }
 
 .card-content {
@@ -1400,18 +1409,24 @@ h2 {
 }
 
 .image-container {
-  flex-shrink: 0; /* 这是为了防止图片在 flex 布局中被压缩 */
-  margin-right: 20px; /* 增加图片和文本之间的间距 */
+  flex-shrink: 0;
+  /* 这是为了防止图片在 flex 布局中被压缩 */
+  margin-right: 20px;
+  /* 增加图片和文本之间的间距 */
 }
 
 .container {
-  flex-grow: 1; /* 这是为了让容器能够占据剩余的空间 */
+  flex-grow: 1;
+  /* 这是为了让容器能够占据剩余的空间 */
 }
 
 .container h4 {
-  margin-bottom: 10px; /* 增加标题和段落之间的间距 */
-  color: #333; /* 改变标题颜色 */
-  font-weight: bold; /* 加粗标题 */
+  margin-bottom: 10px;
+  /* 增加标题和段落之间的间距 */
+  color: #333;
+  /* 改变标题颜色 */
+  font-weight: bold;
+  /* 加粗标题 */
 }
 
 .round-image {
@@ -1428,4 +1443,30 @@ h2 {
   left: 0;
   text-indent: -9999px;
   z-index: 2;
+}
+
+.youlian {
+  display: inline-block;
+  /* 添加这一行 */
+  color: #333;
+  /* 改变链接颜色 */
+  background-color: #f9f9f9;
+  /* 添加背景色 */
+  padding: 10px 20px;
+  /* 添加内边距 */
+  border: 1px solid #ccc;
+  /* 添加边框 */
+  text-decoration: none;
+  /* 移除下划线 */
+  border-radius: 5px;
+  /* 使边框变为圆形 */
+  transition: background-color 0.3s ease;
+  /* 添加过渡效果 */
+  margin: 10px 0;
+  /* 添加上下边距 */
+}
+
+.youlian:hover {
+  background-color: #e9e9e9;
+  /* 改变背景色 */
 }
