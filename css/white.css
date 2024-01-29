@@ -134,6 +134,7 @@ span {
   position: absolute;
   left: -30px;
   top: 30px;
+
 }
 
 #sort .categories-outer ul {
@@ -1470,3 +1471,24 @@ h2 {
   background-color: #e9e9e9;
   /* 改变背景色 */
 }
+
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    box-sizing: border-box;
+    width: 33.33%;
+    margin-right: 20px;
+    /* 添加右边距 */
+  }
+
+  .card:last-child {
+    margin-right: 0;
+    /* 最后一个卡片不需要右边距 */
+  }
+}
+
